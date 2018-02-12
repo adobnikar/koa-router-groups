@@ -23,5 +23,14 @@
   ],
   "author": "Andraž Dobnikar <andraz.dobnikar@hotmail.com>",
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/adobnikar/node-koa-router-groups#readme"
+  "homepage": "https://bitbucket.org/adobnikar/node-koa-router-groups#readme",
+  "dependencies": {
+    "lodash.isfunction": "^3.0.9",
+    "lodash.isstring": "^4.0.1"
+  },
+  "devDependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0"
+  }
 }
