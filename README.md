@@ -24,7 +24,7 @@ npm i --save git+ssh://git@bitbucket.org:adobnikar/node-koa-router-groups.git
 ## Example ##
 
 A working example can be found in this repository. You can start it by running the `example/example.js` file.
-If you want to read the source of the example you can download the [example.zip](./example/example.zip) and extract it to a folder. The most important file in the example are `example/example.js` and `example/example-routes.js`.
+If you want to read the source of the example you can download the [example.zip](./example.zip) and extract it to a folder. The most important file in the example are `example/example.js` and `example/example-routes.js`.
 
 ### Contents of `example/example.js` ###
 
