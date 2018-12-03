@@ -9,16 +9,21 @@
 Run the npm install command:
 ```bash
 
-# Signapps
-yarn add git+ssh://git@signapps.io:signapps/node-koa-router-groups.git
+npm i koa-router-groups --save
 # or
-npm i --save git+ssh://git@signapps.io:signapps/node-koa-router-groups.git
+yarn add koa-router-groups
 
-# Bitbucket (adobnikar)
-yarn add git+ssh://git@bitbucket.org:adobnikar/node-koa-router-groups.git
-# or
-npm i --save git+ssh://git@bitbucket.org:adobnikar/node-koa-router-groups.git
+```
 
+After installing koa-router-groups, all you need to do is extend an existing koa router instance with the extend function.
+```javascript
+const Koa = require("koa");
+const KoaRouter = require("koa-router");
+const KoaRouterGroups = require("koa-router-groups");
+
+let koa = new Koa();
+let koaRouter = new KoaRouter();
+KoaRouterGroups.extend(koaRouter);
 ```
 
 ## Quick Example ##
