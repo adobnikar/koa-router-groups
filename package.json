@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/adobnikar/node-koa-router-groups.git"
+    "url": "git+ssh://git@github.com:adobnikar/koa-router-groups.git"
   },
   "keywords": [
     "koa",
@@ -22,7 +22,10 @@
     "permission"
   ],
   "author": "Andraž Dobnikar <andraz.dobnikar@hotmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/adobnikar/node-koa-router-groups/issues"
+  },
   "homepage": "https://bitbucket.org/adobnikar/node-koa-router-groups#readme",
   "dependencies": {
     "lodash.isfunction": "^3.0.9",
